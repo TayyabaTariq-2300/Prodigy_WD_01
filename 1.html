@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+</head>
+<body>
+    <section class="section">
+    
+            <header class="header">
+                <h1 class="logo" >Logo</h1>
+                <div class="nav">
+                    <a href="">Home</a>
+                    <a href="#gallery">Gallery</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#about">About Us</a>
+                    <a href="#register">Register</a>
+                </div>
+            </header>
+    
+        
+        <div class="content">
+            <h2 class="h2">Like Nature.</h2>
+            <h2 class="h2"><span>Be Creative! </span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ex accusantium neque error, deleniti ullam quo mollitia aliquam animi, voluptatem corrupti quis porro quod eum officia cum officiis quaerat. Deserunt magnam libero ipsa facere aliquam eveniet eum, itaque debitis amet delectus quidem inventore quibusdam harum accusantium rerum aliquid totam numquam.</p>
+            <a href="" class="info">More Info</a>
+
+            <div class="media-icons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <div id="gallery">
+        <div class="container">
+
+        <div class="img1">
+            <h2>Flower 1</h2>
+            <img class="home-img" src="../styles/img1.jpeg" alt="">
+        
+            <a href="">See Details</a>
+        </div>
+        <div class="img1">
+            <h2>Flower 2</h2>
+            <img class="home-img" src="../styles/img2.jpeg" alt="">
+            
+            <a href="">See Details</a>
+        </div>
+        <div class="img1">
+            <h2>Flower 3</h2><img class="home-img" src="../styles/img3.jpeg" alt="">
+            
+            <a href="">See Details</a>
+        </div>
+    </div>
+    <div class="description">
+            <div class="d">
+                <h4>Description</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio earum officia delectus, obcaecati ut sapiente.</p>
+            </div>
+
+            <div class="d">
+                <h4>Description</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam veniam, natus ad, commodi minus suscipit.</p>
+            </div>
+
+            <div class="d">
+                <h4>Description</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, debitis magni! Cum quos quas incidunt.</p>
+            </div>
+    </div>
+</div>
+
+    <div id="register">
+        <div class="register-page">
+            <h3>Register Yourself</h3>
+          <br>
+          <hr>
+          <br>
+
+            <label for="fname">First Name: *</label>
+            <input type="text" name="name" id="fname" placeholder="Enter your first name.">
+            <br>
+            <label for="lname">Last Name: *</label>
+            <input type="text" name="name" id="lname" placeholder="Enter your last name.">
+            <br>
+            <label for="age">Age: *</label>
+            <input type="number" name="age"  placeholder="Enter your age.">
+            <br>
+            <label for="email">Email: *</label>
+            <input type="email" name="email" placeholder="Enter your email.">
+            <br>
+            <label for="phone-no">Phone Number: *</label>
+            <input type="number" name="number" placeholder="Enter your phone number.">
+            <br>
+            <input type="button" value="Regsiter" class="register-button">
+        </div>
+    </div>
+    <script>
+    // change font color when scrolled
+
+        window.addEventListener('scroll', function() {
+            var navbar = document.querySelector('.nav');
+            var links = document.querySelectorAll('.nav a');
+            if (window.scrollY > 0) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+</script>
+
+</body>
+</html>
